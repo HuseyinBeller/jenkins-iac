@@ -3,7 +3,7 @@ terraform {
   backend "s3" {
     bucket = "infrabucket-iacgitops-eu-cenral-1"
     key    = "jenkins-iac/state.tfstate"
-    region = "eu-cenral-1"
+    region = "eu-central-1"
   }
   required_providers {
     aws = {
