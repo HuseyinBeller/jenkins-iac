@@ -5,6 +5,6 @@ metadata:
 data:
   MYSQL_DATABASE: contactform
   S3_BUCKET_NAME: freedevopsclass-buk
-  REGION: eu-west-1
+  REGION: eu-central-1
   db-url: mysql-service
 
